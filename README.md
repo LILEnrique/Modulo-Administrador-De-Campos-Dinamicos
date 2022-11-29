@@ -12,7 +12,7 @@ _Dentro de los requisitos mínimos para poder correr este software y un correcto
 
 * Instalar [Node Js](https://nodejs.org/es/download/) desde la versión 16.16.0 en adelante
 * Instalar [Laravel](https://laravel.su/docs/7.x/installation) en su versión 7
-* Instalar [PHP](https://www.php.net/downloads.php) desde la versión 7.4.29 en adelante
+* Instalar [PHP](https://www.php.net/downloads.php) desde la versión 7.4.29
 * Instalar [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) en su versión 2019 
 * Instalar [SQL Server Management studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) para gestión de la base de datos a través de interfaz gráfica desde la versión 18
 * Instalar [ODBC Driver](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16) en su versión 17 
@@ -91,18 +91,34 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```
 Variables importantes a considerar:
 * La variable DB_CONNECTION es la conexion a base de datos elegida para el proyecto
-* La variable DB_HOST 
+* La variable DB_HOST es el lugar donde se hospedará el proyecto.
 * La variable DB_PORT especifica el puerto donde se ejecutará un servidor
 * La variable DB_DATABASE especifica el nombre de la base de datos que se usara para el proyecto
 * La variable DB_USERNAME es la credencial que refiere al nombre de usuario para conectar a la base de datos
 * La variable DB_PASSWORD es la credencial que refiere a la contraseña del usuario para conectar a la base de datos
 
+#### Instalacion de packetes ⌨️
+Una vez clonado el repositorio y tener el ".env", a través del siguiente comando procederemos a instalar las dependencias:
+
+```
+npm install
+```
+#### Configuracion DB ⌨️
+Lo primero que se debe de hacer, es la de habilitar los "Protocols" de SQL Server, para ello deberemos de abrir "Sql Server Configuration Manager" y dirigirnos a:
+```
+SQL Server Network Configuration -> Protocols for MSSQLSERVER
+```
+estando aqui, debemos de fijarnos que Shared Memory, Named Pipes y TCP/IP esten Habilitados o Enabled, luego procedemos a ir a:
+```
+SQL Server Services y reiniciamos SQL Server(MSSQLSERVER).
+```
+Teniendo esto configurado, procedemos a ejecutar o cargar el archivo BD_CompletaF.sql con Microsoft SQL Server Management Studio que se encuentra en la carpeta raiz del proyecto.
 
 
 #### Ejecución de comandos del proyecto ⌨️
 Una vez configurado todo el entorno de desarrollo, a continuación se presentan los comandos disponibles para ejecutar el proyecto.
 ```
-php artisan server
+php artisan serve
 ```
 Ejecuta la aplicación node en el entorno de desarrollo.
 ## Estructura de directorios ⚙️
@@ -152,13 +168,13 @@ Para todas las versiones disponibles, mira los [tags en el repositorio](https://
 
 ##### Equipo TI4
 * **Enrique Cayupan** - *Scrum Master* - [CatPsycho](https://github.com/LILEnrique)
-* **Bryan Silva** - *Developer* - [BryanSnowth](https://github.com/BryanSnowth)
+* **Bryan Silva** - *Desarrollador* - [BryanSnowth](https://github.com/BryanSnowth)
 
 ##### Equipo TI2
 * **Edward Contreras** - *Scrum Master* - [DeuxMachin](https://github.com/DeuxMachin)
-* **Joaquin Aguilar** - *Developer* - [Juaker1](https://github.com/Juaker1)
-* **Benjamin Sanchez** - *Developer* - [Pancito2](https://github.com/pansito2)
-* **Roberto Nieves** - *Developer* - [Cowerino](https://github.com/cowerino)
+* **Joaquin Aguilar** - *Desarrollador* - [Juaker1](https://github.com/Juaker1)
+* **Benjamin Sanchez** - *Desarrollador* - [Pancito2](https://github.com/pansito2)
+* **Roberto Nieves** - *Desarrollador* - [Cowerino](https://github.com/cowerino)
 
 
 
