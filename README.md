@@ -168,13 +168,13 @@ Para todas las versiones disponibles, mira los [tags en el repositorio](https://
 
 ##### Equipo TI4
 * **Enrique Cayupan** - *Scrum Master* - [CatPsycho](https://github.com/LILEnrique)
-* **Bryan Silva** - *Desarrollador* - [BryanSnowth](https://github.com/BryanSnowth)
+* **Bryan Silva** - *Developer* - [BryanSnowth](https://github.com/BryanSnowth)
 
 ##### Equipo TI2
 * **Edward Contreras** - *Scrum Master* - [DeuxMachin](https://github.com/DeuxMachin)
-* **Joaquin Aguilar** - *Desarrollador* - [Juaker1](https://github.com/Juaker1)
-* **Benjamin Sanchez** - *Desarrollador* - [Pancito2](https://github.com/pansito2)
-* **Roberto Nieves** - *Desarrollador* - [Cowerino](https://github.com/cowerino)
+* **Joaquin Aguilar** - *Developer* - [Juaker1](https://github.com/Juaker1)
+* **Benjamin Sanchez** - *Developer* - [Pancito2](https://github.com/pansito2)
+* **Roberto Nieves** - *Developer* - [Cowerino](https://github.com/cowerino)
 
 
 
