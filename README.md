@@ -171,7 +171,7 @@ Para todas las versiones disponibles, mira los [tags en el repositorio](https://
 * **Bryan Silva** - *Developer* - [BryanSnowth](https://github.com/BryanSnowth)
 
 ##### Equipo TI2
-* **Edward Contreras** - *Scrum Master* - [DeuxMachin](https://github.com/DeuxMachin)
+* **Edward Contreras** - *Developer* - [DeuxMachin](https://github.com/DeuxMachin)
 * **Joaquin Aguilar** - *Developer* - [Juaker1](https://github.com/Juaker1)
 * **Benjamin Sanchez** - *Developer* - [Pancito2](https://github.com/pansito2)
 * **Roberto Nieves** - *Developer* - [Cowerino](https://github.com/cowerino)
